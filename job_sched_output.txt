@@ -1,0 +1,71 @@
+$ ./a.exe
+ G[4][1]=1
+ G[1][2]=1
+ G[2][3]=1
+ G[2][7]=1
+ G[5][6]=1
+ G[7][6]=1
+ G[1][5]=1
+ G[8][5]=1
+ G[8][9]=1
+
+ top=0
+ pushing on stack:4 start_time=1 end_time=0
+
+ consider:4 start_time=1 end_time=0
+ pushing on stack1:1 start_time=2 end_time=0
+  no. of nodes=1
+
+ consider:1 start_time=2 end_time=0
+ pushing on stack1:2 start_time=3 end_time=0
+ pushing on stack1:5 start_time=4 end_time=0
+  no. of nodes=1
+
+ consider:5 start_time=4 end_time=0
+ pushing on stack1:6 start_time=5 end_time=0
+  no. of nodes=1
+
+ consider:6 start_time=5 end_time=0
+ end time update:6 start_time=5 end_time=6
+  no. of nodes=2
+
+ consider:5 start_time=4 end_time=0
+ end time update:5 start_time=4 end_time=7
+  no. of nodes=3
+
+ consider:2 start_time=3 end_time=0
+ pushing on stack1:3 start_time=8 end_time=0
+ pushing on stack1:7 start_time=9 end_time=0
+  no. of nodes=3
+
+ consider:7 start_time=9 end_time=0
+ end time update:7 start_time=9 end_time=10
+  no. of nodes=4
+
+ consider:3 start_time=8 end_time=0
+ end time update:3 start_time=8 end_time=11
+  no. of nodes=5
+
+ consider:2 start_time=3 end_time=0
+ end time update:2 start_time=3 end_time=12
+  no. of nodes=6
+
+ consider:1 start_time=2 end_time=0
+ end time update:1 start_time=2 end_time=13
+  no. of nodes=7
+
+ consider:4 start_time=1 end_time=0
+ end time update:4 start_time=1 end_time=14
+  no. of nodes=8
+
+ consider:8 start_time=15 end_time=0
+ pushing on stack1:9 start_time=16 end_time=0
+  no. of nodes=8
+
+ consider:9 start_time=16 end_time=0
+ end time update:9 start_time=16 end_time=17
+  no. of nodes=9
+
+ consider:8 start_time=15 end_time=0
+ end time update:8 start_time=15 end_time=18
+  no. of nodes=10
